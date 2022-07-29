@@ -113,7 +113,7 @@
     <br>
     <!-- course -->
     <div class="d-flex justify-content-center row ">
-      <div class="card mb-3 col-md-12 col-sm-6" style="max-width: 540px;">
+      <div class="card mb-3 me-5 col-md-12 col-sm-6" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="images/course/course-1.png" class="img-fluid rounded-start " alt="...">
@@ -141,7 +141,7 @@
           </div>
         </div>
       </div>
-      <div class="card mb-3 col-md-12 col-sm-6" style="max-width: 540px;">
+      <div class="card mb-3 me-5 col-md-12 col-sm-6" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="images/course/course-3.png" class="img-fluid rounded-start " alt="...">
@@ -170,7 +170,7 @@
           </div>
         </div>
       </div>
-      <div class="card mb-3 col-md-12 col-sm-6" style="max-width: 540px;">
+      <div class="card mb-3 me-5 col-md-12 col-sm-6" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
@@ -206,8 +206,8 @@
 
 
     </div>
-    <div>
-      <button type="button" class="btn btn-primary mt-5 mb-5">See More Courses</button>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <button type="button" class="btn btn-primary  mt-5 mb-5">See More Courses</button>
     </div>
 
     <!-- Ready to join -->
@@ -217,7 +217,37 @@
         <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
       </div>
       <div class="col-md-6 d-flex justify-content-center align-items-center">
-        <a href="#" class="btn btn-outline-primary" role="button">Register</a>
+       <button type="button"class="btn btn-outline-primary pt-2 pe-4 pb-2 ps-4 g-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now
+       </button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Digital Learning</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+        <a class="btn btn-primary" href="form.html" target="_blank" role="button">Registration</a>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </section>
 
@@ -231,21 +261,21 @@
 
       <div class="container col-sm-12 col-md-12
           py-3 py-sm-0 d-flex mt-5">
-        <div class="card">
+        <div class="card me-5">
           <img src="images/student/student-1.png" class="card-img-top" alt="...">
           <div class="card-body p-0">
             <h5 class="card-title">Awlad Hossain</h5>
             <p class="card-text">UIUX Designer</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card me-5">
           <img src="images/student/student-2.png" class="card-img-top" alt="...">
           <div class="card-body p-0">
             <h5 class="card-title">Jannatul Islam</h5>
             <p class="card-text">Motion Design</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card me-5">
           <img src="images/student/student-3.png" class="card-img-top" alt="...">
           <div class="card-body p-0">
             <h5 class="card-title">Imran Hossain</h5>
@@ -260,7 +290,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="d-flex flex-column justify-content-center align-items-center">
         <button type="button" class="btn btn-primary mt-5">View All</button>
       </div>
 
